@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JULIO❤GIRLS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="./Img/Julio.pg.jpg" id="Julio" width="400">
+        <button onclick="calcularPorcentagemAmor()">
+            <img src="./Img/Heart_corazón.svg.webp">
+        </button>
+        <img src="./Img/kankan.jpg" id="Kandasse" alt="Foto Kandasse" width="400">
+    </div>
+
+<h1 id="resultado">
+    
+</h1>
+    <script>
+        function calcularPorcentagemAmor() {
+            var Julio = "Julio" 
+            var Kandasse = "Kandasse"
+
+            var porcentagem = Math.floor(Math.random() * 101); // Gera um número aleatório entre 0 e 100
+
+            var resultado = document.getElementById('resultado');
+            resultado.innerHTML = "A porcentagem do amor entre " + Julio + " e " + Kandasse + " é de " + porcentagem + "%.";
+        }
+    </script>
+</body>
+</html>

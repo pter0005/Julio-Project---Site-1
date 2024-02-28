@@ -1,0 +1,29 @@
+body{ 
+    background-color: lightpink;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coração {
+    margin: 0 20px;
+}
+header h1{
+   text-align: center; 
+   font-size: 100px;
+}
+
+.mulheres img{
+    display: none;
+    
+
+
+}
+#Kandasse{
+    display: flex
+}
+#resultado{
+    text-align: center;
+}
+    
